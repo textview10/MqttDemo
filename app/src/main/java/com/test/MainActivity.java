@@ -20,6 +20,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+
     private AppCompatButton btn_connect;
     private String TAG = "MainActivity";
     private long startTime;
