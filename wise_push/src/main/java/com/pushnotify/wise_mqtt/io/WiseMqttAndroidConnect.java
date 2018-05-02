@@ -66,7 +66,6 @@ public class WiseMqttAndroidConnect extends BaseConnect {
                 @Override
                 public void messageArrived(String topic, MqttMessage message) throws Exception {
                     String json = new String(message.getPayload()).toString();
-//                    listener.receiveMessage(topic, new String(message.getPayload()).toString());
                     showLog("receive a  msg topicName = " + topic + "origin message name = " +
                             new String(message.getPayload()).toString() + "finally message name =  " + json);
                     try {
